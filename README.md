@@ -17,4 +17,23 @@ Secciones:
     - Aves: Pollo por partes (Empacadoras y distribuidoras)
 
 ## Esquema Final
+### Agricultura
+Mongo collection: agricultura
+Esquema: 
+´´´
+{
+    "fecha": "mm/dd/yyyy",
+    "presentacion": "string",
+    "origen": "string",
+    "destino": "string",
+    "precio_min": "string",
+    "precio_max": "string",
+    "precio_frec": "string",
+    "obs": "string"
+}
+´´´
 
+
+## Requerimientos
+- [Python 3.5+] (https://www.python.org/)
+- [Doccker] (https://www.docker.com/)
